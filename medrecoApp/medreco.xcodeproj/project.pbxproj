@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5692DD7D29174F5400DDC871 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5692DD7C29174F5400DDC871 /* Users.swift */; };
+		5692DD7F29174F5E00DDC871 /* Hospitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5692DD7E29174F5E00DDC871 /* Hospitals.swift */; };
+		5692DD8129174F6E00DDC871 /* Appointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5692DD8029174F6E00DDC871 /* Appointments.swift */; };
+		5692DD852917522400DDC871 /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5692DD842917522400DDC871 /* AppointmentCell.swift */; };
+		5692DD87291752A700DDC871 /* AppointmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5692DD86291752A700DDC871 /* AppointmentCell.xib */; };
+		5692DD8929176F6800DDC871 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5692DD8829176F6800DDC871 /* LoginViewController.swift */; };
+		5692DD8B29176F8200DDC871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5692DD8A29176F8200DDC871 /* Assets.xcassets */; };
 		5C88B5822916F7E3009CEEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B5812916F7E3009CEEA4 /* AppDelegate.swift */; };
 		5C88B5842916F7E3009CEEA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B5832916F7E3009CEEA4 /* SceneDelegate.swift */; };
 		5C88B5862916F7E3009CEEA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B5852916F7E3009CEEA4 /* ViewController.swift */; };
 		5C88B5892916F7E3009CEEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C88B5872916F7E3009CEEA4 /* Main.storyboard */; };
-		5C88B58B2916F7E4009CEEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C88B58A2916F7E4009CEEA4 /* Assets.xcassets */; };
 		5C88B58E2916F7E4009CEEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C88B58C2916F7E4009CEEA4 /* LaunchScreen.storyboard */; };
-		5C88B5B12917068D009CEEA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B5B02917068D009CEEA4 /* LoginViewController.swift */; };
 		5CADFF292917322C00EC1D56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CADFF282917322C00EC1D56 /* GoogleService-Info.plist */; };
 		5CADFF2B29175B0700EC1D56 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CADFF2A29175B0700EC1D56 /* SignupViewController.swift */; };
 		5CADFF2D2917694A00EC1D56 /* Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5CADFF2C2917694A00EC1D56 /* Logo.jpeg */; };
@@ -24,16 +29,21 @@
 
 /* Begin PBXFileReference section */
 		1388A404D39A590AF5F662E5 /* Pods-medreco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medreco.debug.xcconfig"; path = "Target Support Files/Pods-medreco/Pods-medreco.debug.xcconfig"; sourceTree = "<group>"; };
+		5692DD7C29174F5400DDC871 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		5692DD7E29174F5E00DDC871 /* Hospitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospitals.swift; sourceTree = "<group>"; };
+		5692DD8029174F6E00DDC871 /* Appointments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointments.swift; sourceTree = "<group>"; };
+		5692DD842917522400DDC871 /* AppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
+		5692DD86291752A700DDC871 /* AppointmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentCell.xib; sourceTree = "<group>"; };
+		5692DD8829176F6800DDC871 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5692DD8A29176F8200DDC871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		590968F14831492796B813A1 /* Pods_medreco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_medreco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C88B57E2916F7E3009CEEA4 /* medreco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medreco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C88B5812916F7E3009CEEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C88B5832916F7E3009CEEA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C88B5852916F7E3009CEEA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C88B5882916F7E3009CEEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C88B58A2916F7E4009CEEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/gaonkar/Documents/Coding/UB Hacking Fall 2022 /medrecoApp/medreco/Assets.xcassets"; sourceTree = "<absolute>"; };
 		5C88B58D2916F7E4009CEEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C88B58F2916F7E4009CEEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C88B5B02917068D009CEEA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5CADFF282917322C00EC1D56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5CADFF2A29175B0700EC1D56 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		5CADFF2C2917694A00EC1D56 /* Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Logo.jpeg; path = Assets.xcassets/Logo.jpeg; sourceTree = "<group>"; };
@@ -54,6 +64,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5692DD7929174F1500DDC871 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C88B5852916F7E3009CEEA4 /* ViewController.swift */,
+				5692DD8829176F6800DDC871 /* LoginViewController.swift */,
+				5CC93A2429172BD500C99F3B /* DashboardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5692DD7A29174F2400DDC871 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C88B5872916F7E3009CEEA4 /* Main.storyboard */,
+				5692DD842917522400DDC871 /* AppointmentCell.swift */,
+				5692DD86291752A700DDC871 /* AppointmentCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5692DD7B29174F2D00DDC871 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5692DD7C29174F5400DDC871 /* Users.swift */,
+				5692DD7E29174F5E00DDC871 /* Hospitals.swift */,
+				5692DD8029174F6E00DDC871 /* Appointments.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		5C88B5752916F7E3009CEEA4 = {
 			isa = PBXGroup;
 			children = (
@@ -77,17 +117,16 @@
 			children = (
 				5C88B5812916F7E3009CEEA4 /* AppDelegate.swift */,
 				5C88B5832916F7E3009CEEA4 /* SceneDelegate.swift */,
-				5C88B5852916F7E3009CEEA4 /* ViewController.swift */,
-				5C88B5872916F7E3009CEEA4 /* Main.storyboard */,
-				5CC93A2429172BD500C99F3B /* DashboardViewController.swift */,
-				5C88B58A2916F7E4009CEEA4 /* Assets.xcassets */,
+				5692DD7B29174F2D00DDC871 /* Models */,
+				5692DD7A29174F2400DDC871 /* Views */,
+				5692DD7929174F1500DDC871 /* Controllers */,
+				5692DD8A29176F8200DDC871 /* Assets.xcassets */,
 				5C88B58C2916F7E4009CEEA4 /* LaunchScreen.storyboard */,
 				5CADFF2A29175B0700EC1D56 /* SignupViewController.swift */,
 				5CADFF282917322C00EC1D56 /* GoogleService-Info.plist */,
 				5C88B58F2916F7E4009CEEA4 /* Info.plist */,
 				5CADFF2C2917694A00EC1D56 /* Logo.jpeg */,
 				5CADFF2E29176D3600EC1D56 /* background.jpeg */,
-				5C88B5B02917068D009CEEA4 /* LoginViewController.swift */,
 			);
 			path = medreco;
 			sourceTree = "<group>";
@@ -173,8 +212,9 @@
 				5CADFF2F29176D3600EC1D56 /* background.jpeg in Resources */,
 				5CADFF292917322C00EC1D56 /* GoogleService-Info.plist in Resources */,
 				5CADFF2D2917694A00EC1D56 /* Logo.jpeg in Resources */,
-				5C88B58B2916F7E4009CEEA4 /* Assets.xcassets in Resources */,
 				5C88B5892916F7E3009CEEA4 /* Main.storyboard in Resources */,
+				5692DD8B29176F8200DDC871 /* Assets.xcassets in Resources */,
+				5692DD87291752A700DDC871 /* AppointmentCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,12 +267,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5692DD7F29174F5E00DDC871 /* Hospitals.swift in Sources */,
 				5CADFF2B29175B0700EC1D56 /* SignupViewController.swift in Sources */,
-				5C88B5B12917068D009CEEA4 /* LoginViewController.swift in Sources */,
 				5C88B5862916F7E3009CEEA4 /* ViewController.swift in Sources */,
 				5CC93A2529172BD500C99F3B /* DashboardViewController.swift in Sources */,
 				5C88B5822916F7E3009CEEA4 /* AppDelegate.swift in Sources */,
+				5692DD7D29174F5400DDC871 /* Users.swift in Sources */,
 				5C88B5842916F7E3009CEEA4 /* SceneDelegate.swift in Sources */,
+				5692DD852917522400DDC871 /* AppointmentCell.swift in Sources */,
+				5692DD8929176F6800DDC871 /* LoginViewController.swift in Sources */,
+				5692DD8129174F6E00DDC871 /* Appointments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +431,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,6 +462,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
