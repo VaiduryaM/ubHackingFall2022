@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hmL-Df-SuT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hmL-Df-SuT">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -123,7 +124,7 @@
                                 <rect key="frame" x="59" y="524" width="275" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVB-39-WhP">
                                 <rect key="frame" x="59" y="720" width="275" height="51"/>
@@ -182,7 +183,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hmL-Df-SuT" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KRR-KB-G0U">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -202,8 +203,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="s0K-3Z-wnp">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="s0K-3Z-wnp" customClass="Card">
+                                <rect key="frame" x="0.0" y="122" width="414" height="740"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -212,7 +213,7 @@
                         <constraints>
                             <constraint firstItem="s0K-3Z-wnp" firstAttribute="leading" secondItem="oNa-pX-f2q" secondAttribute="leading" id="BPY-vf-r7n"/>
                             <constraint firstItem="oNa-pX-f2q" firstAttribute="bottom" secondItem="s0K-3Z-wnp" secondAttribute="bottom" id="ZaQ-Wg-I9R"/>
-                            <constraint firstItem="s0K-3Z-wnp" firstAttribute="top" secondItem="oNa-pX-f2q" secondAttribute="top" id="k1w-Ar-3S6"/>
+                            <constraint firstItem="s0K-3Z-wnp" firstAttribute="top" secondItem="oNa-pX-f2q" secondAttribute="top" constant="30" id="k1w-Ar-3S6"/>
                             <constraint firstItem="oNa-pX-f2q" firstAttribute="trailing" secondItem="s0K-3Z-wnp" secondAttribute="trailing" id="m9o-Db-yZf"/>
                         </constraints>
                     </view>
@@ -223,7 +224,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZHU-SI-Frg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2692" y="-55"/>
+            <point key="canvasLocation" x="2691.304347826087" y="-55.580357142857139"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

@@ -22,7 +22,6 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func onLoginClick(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "toDashboard", sender: nil)
         
         FirebaseAuth.Auth.auth().signIn(withEmail: userName.text ?? "", password: password.text ?? "" ) { authResult, error in
             if authResult != nil {

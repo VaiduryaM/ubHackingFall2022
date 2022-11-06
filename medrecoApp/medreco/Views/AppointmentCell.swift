@@ -10,35 +10,28 @@ import UIKit
 
 class AppointmentCell: UITableViewCell {
     
-    @IBOutlet weak var aptDescription: UILabel!
-    @IBOutlet weak var dateOfApt: UILabel!
-    @IBOutlet weak var doctor: UILabel!
-    @IBOutlet weak var hospital: UILabel!
+
+//    @IBOutlet weak var doctor: UILabel!
+    @IBOutlet weak var placeName: UILabel!
+    @IBOutlet weak var address: UILabel!
+    @IBOutlet weak var placeImage: UIImageView!
+    //    @IBOutlet weak var hospital: UILabel!
+    @IBOutlet weak var contentViewCell: UIView!
+    
+    @IBOutlet weak var cardView: UIView!
+    
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        contentViewCell.clipsToBounds = false
+        contentViewCell.layer.cornerRadius = 5
+        contentViewCell.backgroundColor = UIColor(red: 246, green: 247, blue: 249, alpha: 1)
+        
+        cardView.layer.borderWidth = 2
+        //        cardView.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.2).cgColor
+        let color = (UIColor(red: 126, green: 217, blue: 87, alpha: 1)).cgColor
+        cardView.layer.borderColor = UIColor.systemFill.cgColor
     }
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    
-}
-
-extension UITableViewCell{
-    func shadowAndBorderForCell(yourTableViewCell : UITableViewCell){
-        // SHADOW AND BORDER FOR CELL
-        //yourTableViewCell.contentView.layer.cornerRadius = 5
-        yourTableViewCell.contentView.layer.borderWidth = 0.5
-        yourTableViewCell.contentView.layer.borderColor = UIColor.lightGray.cgColor
-        yourTableViewCell.contentView.layer.masksToBounds = true
-        yourTableViewCell.layer.shadowColor = UIColor.gray.cgColor
-        yourTableViewCell.layer.shadowOffset = CGSize(width: 0, height: 2.0)
-        yourTableViewCell.layer.shadowRadius = 2.0
-        yourTableViewCell.layer.shadowOpacity = 1.0
-        yourTableViewCell.layer.masksToBounds = false
-        yourTableViewCell.layer.shadowPath = UIBezierPath(roundedRect:yourTableViewCell.bounds, cornerRadius:yourTableViewCell.contentView.layer.cornerRadius).cgPath
-    }
 }
