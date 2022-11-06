@@ -1,0 +1,38 @@
+{
+	"Appointment1":
+	{
+		"AppointmentId": 1,
+		"AppointmentDescription": "Common cold - Given cold syrup",
+		"hostipalId": 1,
+		"patientId":1,
+		"doctorId":2,
+		"dateTime":"12/03/2022 10:30:45"
+	},
+	"Appointment2":
+	{
+		"AppointmentId": 2,
+		"AppointmentDescription": "Blood pressure check - 1",
+		"hostipalId": 2,
+		"patientId":3,
+		"doctorId":4,	
+		"dateTime":"14/03/2022 11:30:45"
+	},
+	"Appointment3":
+	{
+		"AppointmentId": 3,
+		"AppointmentDescription": "Blood pressure check - 2",
+		"hostipalId": 2,
+		"patientId":3,
+		"doctorId":4,
+		"dateTime":"14/04/2022 10:15:45"
+	},
+	"Appointment4":
+	{
+		"AppointmentId": 4,
+		"AppointmentDescription": "Blood pressure check - 3",
+		"hostipalId": 2,
+		"patientId":3,
+		"doctorId":4,
+		"dateTime":"14/05/2022 10:30:45"
+	}
+}

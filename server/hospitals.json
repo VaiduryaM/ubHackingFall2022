@@ -1,0 +1,17 @@
+{
+	"hostipal1":
+	{
+		"hostipalId": 1,
+		"hostipalName": "Buffalo Medical Center"		
+	},
+	"hostipal2":
+	{
+		"hostipalId": 2,
+		"hostipalName": "Niagara Hospital"		
+	},
+	"hostipal3":
+	{
+		"hostipalId": 3,
+		"hostipalName": "Amherst Medical Camp"		
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"user1":
+	{
+		"userId": 1,
+		"userName": "Vaidurya",
+		"userEmail":"test@buffalo.edu",
+		"role": 1
+	},
+	"user2":
+	{
+		"userId": 2,
+		"userName": "Dr.Eric",
+		"userEmail":"dreric@buffalo.edu",
+		"role": 2	
+	},
+	"user3":
+	{
+		"userId": 3,
+		"userName": "Mahi",
+		"userEmail":"mahi@buffalo.edu",
+		"role": 1
+	},
+	"user4":
+	{
+		"userId": 4,
+		"userName": "Dr.Chitra",
+		"userEmail":"chitra@buffalo.edu",
+		"role": 2
+	}
+}
