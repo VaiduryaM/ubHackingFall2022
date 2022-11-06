@@ -15,6 +15,9 @@
 		5C88B58E2916F7E4009CEEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C88B58C2916F7E4009CEEA4 /* LaunchScreen.storyboard */; };
 		5C88B5B12917068D009CEEA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B5B02917068D009CEEA4 /* LoginViewController.swift */; };
 		5CADFF292917322C00EC1D56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CADFF282917322C00EC1D56 /* GoogleService-Info.plist */; };
+		5CADFF2B29175B0700EC1D56 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CADFF2A29175B0700EC1D56 /* SignupViewController.swift */; };
+		5CADFF2D2917694A00EC1D56 /* Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5CADFF2C2917694A00EC1D56 /* Logo.jpeg */; };
+		5CADFF2F29176D3600EC1D56 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5CADFF2E29176D3600EC1D56 /* background.jpeg */; };
 		5CC93A2529172BD500C99F3B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC93A2429172BD500C99F3B /* DashboardViewController.swift */; };
 		BF59C3DF7BCF7E90D355C444 /* Pods_medreco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590968F14831492796B813A1 /* Pods_medreco.framework */; };
 /* End PBXBuildFile section */
@@ -27,11 +30,14 @@
 		5C88B5832916F7E3009CEEA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C88B5852916F7E3009CEEA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C88B5882916F7E3009CEEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C88B58A2916F7E4009CEEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C88B58A2916F7E4009CEEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/gaonkar/Documents/Coding/UB Hacking Fall 2022 /medrecoApp/medreco/Assets.xcassets"; sourceTree = "<absolute>"; };
 		5C88B58D2916F7E4009CEEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C88B58F2916F7E4009CEEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C88B5B02917068D009CEEA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5CADFF282917322C00EC1D56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CADFF2A29175B0700EC1D56 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5CADFF2C2917694A00EC1D56 /* Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Logo.jpeg; path = Assets.xcassets/Logo.jpeg; sourceTree = "<group>"; };
+		5CADFF2E29176D3600EC1D56 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
 		5CC93A2429172BD500C99F3B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		CE64165051D3D3A1D4AC4FAE /* Pods-medreco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medreco.release.xcconfig"; path = "Target Support Files/Pods-medreco/Pods-medreco.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,8 +82,11 @@
 				5CC93A2429172BD500C99F3B /* DashboardViewController.swift */,
 				5C88B58A2916F7E4009CEEA4 /* Assets.xcassets */,
 				5C88B58C2916F7E4009CEEA4 /* LaunchScreen.storyboard */,
+				5CADFF2A29175B0700EC1D56 /* SignupViewController.swift */,
 				5CADFF282917322C00EC1D56 /* GoogleService-Info.plist */,
 				5C88B58F2916F7E4009CEEA4 /* Info.plist */,
+				5CADFF2C2917694A00EC1D56 /* Logo.jpeg */,
+				5CADFF2E29176D3600EC1D56 /* background.jpeg */,
 				5C88B5B02917068D009CEEA4 /* LoginViewController.swift */,
 			);
 			path = medreco;
@@ -161,7 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C88B58E2916F7E4009CEEA4 /* LaunchScreen.storyboard in Resources */,
+				5CADFF2F29176D3600EC1D56 /* background.jpeg in Resources */,
 				5CADFF292917322C00EC1D56 /* GoogleService-Info.plist in Resources */,
+				5CADFF2D2917694A00EC1D56 /* Logo.jpeg in Resources */,
 				5C88B58B2916F7E4009CEEA4 /* Assets.xcassets in Resources */,
 				5C88B5892916F7E3009CEEA4 /* Main.storyboard in Resources */,
 			);
@@ -216,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CADFF2B29175B0700EC1D56 /* SignupViewController.swift in Sources */,
 				5C88B5B12917068D009CEEA4 /* LoginViewController.swift in Sources */,
 				5C88B5862916F7E3009CEEA4 /* ViewController.swift in Sources */,
 				5CC93A2529172BD500C99F3B /* DashboardViewController.swift in Sources */,

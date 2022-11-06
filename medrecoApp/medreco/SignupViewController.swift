@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  SignupViewController.swift
 //  medreco
 //
 //  Created by Narasimha Gaonkar on 11/5/22.
@@ -8,32 +8,30 @@
 import UIKit
 import Firebase
 import FirebaseAuth
-//import FirebaseDatabase
 
-class LoginViewController: UIViewController {
+class SignupViewController: UIViewController {
     
     @IBOutlet weak var userName: UITextField!
     @IBOutlet weak var password: UITextField!
+    
+    @IBOutlet var Name: UIView!
+    
+    @IBOutlet weak var isDoctor: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
     }
     
-    
-    @IBAction func onLoginClick(_ sender: UIButton) {
-        
-        FirebaseAuth.Auth.auth().signIn(withEmail: userName.text ?? "", password: password.text ?? "" ) { authResult, error in
+    @IBAction func onClickSignup(_ sender: Any) {
+        print(userName.text)
+        print(password.text)
+        Auth.auth().createUser(withEmail: userName.text ?? "", password: password.text ?? "") { authResult, error in
             if authResult != nil {
-                print("User has Signed In")
                 self.performSegue(withIdentifier: "toDashboard", sender: nil)
             }
-            else {
-                print("Cant Sign in user")
-                
-                //self.createUser()
-                
-                let dialogMessage = UIAlertController(title: "Alert", message: "Unable to login. Please re-check your User ID and Password!", preferredStyle: .alert)
+            else{
+                let dialogMessage = UIAlertController(title: "Alert", message: "Unable to Sign you up", preferredStyle: .alert)
                 let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
                     print("Ok button tapped")
                 })
@@ -42,18 +40,8 @@ class LoginViewController: UIViewController {
                 self.present(dialogMessage, animated: true, completion: nil)
             }
         }
-        
     }
-    func createUser() {
-        Auth.auth().createUser(withEmail: userName.text ?? "", password: password.text ?? "") { authResult, error in
-            if authResult != nil {
-                print("User creted")
-            }
-            else{
-                print("Failed")
-            }
-        }
-    }
+    
     /*
      // MARK: - Navigation
      
